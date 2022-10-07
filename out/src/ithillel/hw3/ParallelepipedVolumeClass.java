@@ -1,6 +1,6 @@
 package ithillel.hw3;
 
-public class ParallelepipedVolume {
+public class ParallelepipedVolumeClass {
     public static void main(String[] args) {
         int a = 10;
         int b = 15;
