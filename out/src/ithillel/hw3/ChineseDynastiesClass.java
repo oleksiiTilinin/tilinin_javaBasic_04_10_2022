@@ -10,16 +10,16 @@ public class ChineseDynastiesClass {
         int liRider = 46 * 860;
         int liQuantityOfWarriors = 860 * 3;
 
-        int minWarrior = (int) (9 * 860 * kof);
-        int minArcher = (int) (35 * 860 * kof);
-        int minRider = (int) (12 * 860 * kof);
+        int mingWarrior = (int) (9 * 860 * kof);
+        int mingArcher = (int) (35 * 860 * kof);
+        int mingRider = (int) (12 * 860 * kof);
         int mingQuantityOfWarriors = (int) (liQuantityOfWarriors * 1.5);
 
         int liAttackAmount = (liWarrior + liArcher + liRider) / liQuantityOfWarriors;
-        int minAttack = (minWarrior + minArcher + minRider) / mingQuantityOfWarriors;
+        int mingAttack = (mingWarrior + mingArcher + mingRider) / mingQuantityOfWarriors;
 
         System.out.println("Common attack value for Ling dynasty is: - " + liAttackAmount);
-        System.out.println("Common attack value for Ming dynasty is: - " + minAttack);
+        System.out.println("Common attack value for Ming dynasty is: - " + mingAttack);
 
     }
 }
