@@ -24,9 +24,9 @@ public class CounterStrikeClass {
         //Print the results to console
         if (firstTeamResult > secondTeamResult) {
             System.out.println("Winner is team '" + firstTeamName + "' with " + firstTeamResult + " points");
-        } else if (firstTeamResult == secondTeamResult){
+        } else if (firstTeamResult == secondTeamResult) {
             System.out.println("Teams scored the same number of points");
-        }else {
+        } else {
             System.out.println("Winner is team '" + secondTeamName + "' with " + secondTeamResult + " points");
         }
     }
