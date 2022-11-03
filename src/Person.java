@@ -1,6 +1,6 @@
 public class Person {
 
-    public String personInfo(String name, String surname, String city, int phoneNumber) {
+    private String personInfo(String name, String surname, String city, int phoneNumber) {
         return "Call to the " + name + " " + surname + " from the city " + city + " you can by this phone number: " + "'" + phoneNumber + "'";
     }
 
