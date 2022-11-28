@@ -54,13 +54,14 @@ public class PolymorphismClass {
     }
 
     public static void main(String[] args) {
-        PopMusic justinBieber = new PopMusic("Justin Bieber");
-        RockMusic AcDc = new RockMusic("AC / DC");
-        ClassicMusic Bach = new ClassicMusic("Johann Sebastian Bach");
+        PopMusic popMusic = new PopMusic("Justin Bieber");
+        RockMusic rockMusic = new RockMusic("AC / DC");
+        ClassicMusic classicMusic = new ClassicMusic("Johann Sebastian Bach");
 
-        justinBieber.playMusic();
-        AcDc.playMusic();
-        Bach.playMusic();
+        MusicStyles[] musicStyles = new MusicStyles[]{classicMusic, popMusic, rockMusic};
+        for (MusicStyles i : musicStyles) {
+            i.playMusic();
+        }
 
 
     }
